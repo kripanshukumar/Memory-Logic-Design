@@ -1,0 +1,8 @@
+{D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/rtl/dp_ram_8x16.v} {1 {vlog -work dp_async_ram_sim -stats=none {D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/rtl/dp_ram_8x16.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module dp_ram_8x16
+
+Top level modules:
+	dp_ram_8x16
+
+} {} {}}

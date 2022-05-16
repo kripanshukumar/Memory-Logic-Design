@@ -1,0 +1,5 @@
+|clock_buf
+out <= G1.DB_MAX_OUTPUT_PORT_TYPE
+in => G1.DATAIN
+
+

@@ -1,0 +1,38 @@
+module dp_ram_8x16 (we,
+                    en,
+                    rst,
+                    rd_addr,
+                    wr_addr,
+                    data_in,
+                    data_out);
+    
+    parameter RAM_WIDTH =  16;
+    parameter RAM_DEPTH =  8;
+    parameter ADDR_SIZE =  3;
+
+    input we,en,rst;
+    input [3:0] rd_addr,wr_addr;
+    input [RAM_WIDTH - 1:0] data_in;
+    output reg [RAM_WIDTH - 1: 0] data_out;
+
+    reg [RAM_WIDTH - 1: 0]mem[RAM_DEPTH-1:0];
+
+    integer i;
+
+    always @(we,rst,en)
+    begin
+        if(rst)
+            begin
+                for(i=0; i<RAM_DEPTH; i = i+1)
+                    mem[i] = 0;
+            end
+        if(en)
+            begin
+                if(we) mem[wr_addr] <= data_in;
+                else data_out <= mem[rd_addr];
+            end
+    end
+endmodule
+
+
+

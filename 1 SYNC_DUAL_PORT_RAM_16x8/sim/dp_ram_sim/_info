@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Maven Learning/Practicals/Lab4/8 SISO/sim
+vdp_ram_16x8
+Z0 !s110 1649747332
+!i10b 1
+!s100 71ajO9;`HBO1YESeaTPzm2
+IA:Wc78k9MRiikGLa72[@P3
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/sim
+w1649744768
+8D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/rtl/dp_ram_16x8.v
+FD:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/rtl/dp_ram_16x8.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1649747332.000000
+!s107 D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/rtl/dp_ram_16x8.v|
+!s90 -reportprogress|300|-work|dp_ram_sim|-stats=none|D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/rtl/dp_ram_16x8.v|
+!i113 1
+Z5 o-work dp_ram_sim
+Z6 tCvgOpt 0
+vram_tb
+R0
+!i10b 1
+!s100 nQoFNON=90PL4Lo]B9nEn2
+IjE]NcTaZI97CCS^`P;=Y22
+R1
+R2
+w1649747328
+8D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/test_bench/ram_tb.v
+FD:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/test_bench/ram_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/test_bench/ram_tb.v|
+!s90 -reportprogress|300|-work|dp_ram_sim|-stats=none|D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/test_bench/ram_tb.v|
+!i113 1
+R5
+R6

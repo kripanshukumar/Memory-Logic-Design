@@ -1,0 +1,67 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/sim/dp_ram_16x8.mpf}
+# Loading project dp_ram_16x8
+vsim -gui dp_ram_sim.ram_tb
+# vsim -gui dp_ram_sim.ram_tb 
+# Start time: 14:22:12 on Apr 12,2022
+# Loading dp_ram_sim.ram_tb
+# Loading dp_ram_sim.dp_ram_16x8
+add wave -position insertpoint sim:/ram_tb/*
+run -all
+# ======================WR_ENB=========================
+# WR_ADDR:  0, DATA_IN: 128
+# WR_ADDR:  1, DATA_IN:  42
+# WR_ADDR:  2, DATA_IN: 232
+# WR_ADDR:  3, DATA_IN:  92
+# WR_ADDR:  4, DATA_IN:  72
+# WR_ADDR:  5, DATA_IN:  77
+# WR_ADDR:  6, DATA_IN:  95
+# WR_ADDR:  7, DATA_IN:  37
+# WR_ADDR:  8, DATA_IN: 216
+# WR_ADDR:  9, DATA_IN: 184
+# WR_ADDR: 10, DATA_IN: 198
+# WR_ADDR: 11, DATA_IN: 182
+# WR_ADDR: 12, DATA_IN: 144
+# WR_ADDR: 13, DATA_IN: 247
+# WR_ADDR: 14, DATA_IN:  94
+# WR_ADDR: 15, DATA_IN:   6
+# =======================RD_ENB========================
+# RD_ADDR:  0, DATA_UT: 128
+# RD_ADDR:  1, DATA_UT:  42
+# RD_ADDR:  2, DATA_UT: 232
+# RD_ADDR:  3, DATA_UT:  92
+# RD_ADDR:  4, DATA_UT:  72
+# RD_ADDR:  5, DATA_UT:  77
+# RD_ADDR:  6, DATA_UT:  95
+# RD_ADDR:  7, DATA_UT:  37
+# RD_ADDR:  8, DATA_UT: 216
+# RD_ADDR:  9, DATA_UT: 184
+# RD_ADDR: 10, DATA_UT: 198
+# RD_ADDR: 11, DATA_UT: 182
+# RD_ADDR: 12, DATA_UT: 144
+# RD_ADDR: 13, DATA_UT: 247
+# RD_ADDR: 14, DATA_UT:  94
+# RD_ADDR: 15, DATA_UT:   6
+# ===================RESET PRESSED=======================
+# WR_ADDR:  0, DATA_UT:   0
+# WR_ADDR:  1, DATA_UT:   0
+# WR_ADDR:  2, DATA_UT:   0
+# WR_ADDR:  3, DATA_UT:   0
+# WR_ADDR:  4, DATA_UT:   0
+# WR_ADDR:  5, DATA_UT:   0
+# WR_ADDR:  6, DATA_UT:   0
+# WR_ADDR:  7, DATA_UT:   0
+# WR_ADDR:  8, DATA_UT:   0
+# WR_ADDR:  9, DATA_UT:   0
+# WR_ADDR: 10, DATA_UT:   0
+# WR_ADDR: 11, DATA_UT:   0
+# WR_ADDR: 12, DATA_UT:   0
+# WR_ADDR: 13, DATA_UT:   0
+# WR_ADDR: 14, DATA_UT:   0
+# WR_ADDR: 15, DATA_UT:   0
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/test_bench/ram_tb.v(58)
+#    Time: 590 ps  Iteration: 0  Instance: /ram_tb
+# 1
+# Break in Module ram_tb at D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/test_bench/ram_tb.v line 58
+# End time: 14:23:09 on Apr 12,2022, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 0

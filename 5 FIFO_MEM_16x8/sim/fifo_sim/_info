@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/Maven Learning/Practicals/Lab2/1 Operators/sim
+vfifo_tb
+Z0 !s110 1650282884
+!i10b 1
+!s100 O[TmU5aONb_];eLbLk6MF2
+IE1i_HZ2z0A_Vz`e<<cQ8R0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dD:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/sim
+w1650280710
+8D:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/test_bench/fifo_tb.v
+FD:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/test_bench/fifo_tb.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1650282884.000000
+!s107 D:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/test_bench/fifo_tb.v|
+!s90 -reportprogress|300|-work|fifo_sim|-stats=none|D:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/test_bench/fifo_tb.v|
+!i113 1
+Z5 o-work fifo_sim
+Z6 tCvgOpt 0
+vrouter_fifo
+R0
+!i10b 1
+!s100 gk8A^e:_ndACn^]VZnn^=2
+Ifoe;A@3];]l5`6jmU`Lf@3
+R1
+R2
+w1650282877
+8D:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/rtl/router_fifo.v
+FD:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/rtl/router_fifo.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/rtl/router_fifo.v|
+!s90 -reportprogress|300|-work|fifo_sim|-stats=none|D:/Maven Learning/Practicals/Lab5/5 FIFO_MEM_16x8/rtl/router_fifo.v|
+!i113 1
+R5
+R6

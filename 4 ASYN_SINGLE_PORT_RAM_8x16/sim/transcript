@@ -1,0 +1,60 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Maven Learning/Practicals/Lab5/4 ASYN_SINGLE_PORT_RAM_8x16/sim/SP_ASYN_RAM_8x16.mpf}
+# Loading project SP_ASYN_RAM_8x16
+# 0 compiles, 2 failed with no errors.
+# 0 compiles, 2 failed with no errors.
+# Compile of sp_ram_8x16.v was successful.
+# Compile of ram_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui sp-ram_sim.ram_tb
+# vsim -gui sp-ram_sim.ram_tb 
+# Start time: 14:24:19 on Apr 15,2022
+# Loading sp-ram_sim.ram_tb
+# Loading sp-ram_sim.sp_ram_8x16
+add wave -position insertpoint sim:/ram_tb/DUT/*
+run
+# ======================WR_ENB=========================
+# WR_ADDR: 0, DATA_IN: 18233
+run
+# WR_ADDR: 1, DATA_IN:  7947
+run
+# WR_ADDR: 2, DATA_IN: 23182
+run
+# WR_ADDR: 3, DATA_IN:  2132
+run
+# WR_ADDR: 4, DATA_IN: 33222
+run
+# WR_ADDR: 5, DATA_IN: 57452
+run
+# WR_ADDR: 6, DATA_IN: 14120
+run
+# WR_ADDR: 7, DATA_IN: 56137
+run
+run
+run
+run
+# =======================RD_ENB========================
+run -all
+# RD_ADDR: 0, DATA_OUT: 18233
+# RD_ADDR: 1, DATA_OUT:  7947
+# RD_ADDR: 2, DATA_OUT: 23182
+# RD_ADDR: 3, DATA_OUT:  2132
+# RD_ADDR: 4, DATA_OUT: 33222
+# RD_ADDR: 5, DATA_OUT: 57452
+# RD_ADDR: 6, DATA_OUT: 14120
+# RD_ADDR: 7, DATA_OUT: 56137
+# ===================RESET PRESSED=======================
+# WR_ADDR: 0, DATA_OUT:     0
+# WR_ADDR: 1, DATA_OUT:     0
+# WR_ADDR: 2, DATA_OUT:     0
+# WR_ADDR: 3, DATA_OUT:     0
+# WR_ADDR: 4, DATA_OUT:     0
+# WR_ADDR: 5, DATA_OUT:     0
+# WR_ADDR: 6, DATA_OUT:     0
+# WR_ADDR: 7, DATA_OUT:     0
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab5/4 ASYN_SINGLE_PORT_RAM_8x16/test_bench/ram_tb.v(60)
+#    Time: 350 ps  Iteration: 0  Instance: /ram_tb
+# 1
+# Break in Module ram_tb at D:/Maven Learning/Practicals/Lab5/4 ASYN_SINGLE_PORT_RAM_8x16/test_bench/ram_tb.v line 60
+# End time: 14:25:06 on Apr 15,2022, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 0

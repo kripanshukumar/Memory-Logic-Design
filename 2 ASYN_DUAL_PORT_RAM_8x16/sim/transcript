@@ -1,0 +1,239 @@
+# Reading C:/intelFPGA/17.1/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile {D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/sim/DP_ASYNC_RAM_8x16.mpf}
+# Loading project DP_ASYNC_RAM_8x16
+# Compile of dp_ram_8x16.v was successful.
+# Compile of ram_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui dp_async_ram_sim.ram_tb
+# vsim -gui dp_async_ram_sim.ram_tb 
+# Start time: 15:11:18 on Apr 15,2022
+# Loading dp_async_ram_sim.ram_tb
+# Loading dp_async_ram_sim.dp_ram_8x16
+add wave -position insertpoint sim:/ram_tb/DUT/*
+run -all
+#                    0 EN: 1, READ ADDRESS: 4, DATA READ:     x, WRITE ADDRESS: 1, DATA WRITTEN: 65289
+#                   15 EN: 1, READ ADDRESS: 3, DATA READ:     x, WRITE ADDRESS: 5, DATA WRITTEN:   141
+#                   30 EN: 1, READ ADDRESS: 5, DATA READ:     x, WRITE ADDRESS: 2, DATA WRITTEN:     1
+#                   35 EN: 1, READ ADDRESS: 5, DATA READ:   141, WRITE ADDRESS: 2, DATA WRITTEN:     1
+#                   45 EN: 1, READ ADDRESS: 5, DATA READ:   141, WRITE ADDRESS: 6, DATA WRITTEN:    61
+#                   60 EN: 1, READ ADDRESS: 5, DATA READ:   141, WRITE ADDRESS: 4, DATA WRITTEN:   249
+#                   75 EN: 1, READ ADDRESS: 6, DATA READ:    61, WRITE ADDRESS: 5, DATA WRITTEN: 65450
+#                   90 EN: 1, READ ADDRESS: 5, DATA READ:    61, WRITE ADDRESS: 7, DATA WRITTEN: 65298
+#                   95 EN: 1, READ ADDRESS: 5, DATA READ: 65450, WRITE ADDRESS: 7, DATA WRITTEN: 65298
+#                  105 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 2, DATA WRITTEN: 65486
+#                  120 EN: 1, READ ADDRESS: 0, DATA READ: 65298, WRITE ADDRESS: 5, DATA WRITTEN:    92
+#                  125 EN: 1, READ ADDRESS: 0, DATA READ:     x, WRITE ADDRESS: 5, DATA WRITTEN:    92
+#                  135 EN: 1, READ ADDRESS: 5, DATA READ:    92, WRITE ADDRESS: 5, DATA WRITTEN: 65381
+#                  145 EN: 1, READ ADDRESS: 5, DATA READ: 65381, WRITE ADDRESS: 5, DATA WRITTEN: 65381
+#                  150 EN: 1, READ ADDRESS: 3, DATA READ: 65381, WRITE ADDRESS: 2, DATA WRITTEN: 65408
+#                  155 EN: 1, READ ADDRESS: 3, DATA READ:     x, WRITE ADDRESS: 2, DATA WRITTEN: 65408
+#                  165 EN: 1, READ ADDRESS: 0, DATA READ:     x, WRITE ADDRESS: 2, DATA WRITTEN: 65437
+#                  180 EN: 1, READ ADDRESS: 6, DATA READ:     x, WRITE ADDRESS: 3, DATA WRITTEN: 65293
+#                  185 EN: 1, READ ADDRESS: 6, DATA READ:    61, WRITE ADDRESS: 3, DATA WRITTEN: 65293
+#                  195 EN: 1, READ ADDRESS: 3, DATA READ: 65293, WRITE ADDRESS: 3, DATA WRITTEN: 65493
+#                  205 EN: 1, READ ADDRESS: 3, DATA READ: 65493, WRITE ADDRESS: 3, DATA WRITTEN: 65493
+#                  210 EN: 1, READ ADDRESS: 2, DATA READ: 65493, WRITE ADDRESS: 6, DATA WRITTEN:    29
+#                  215 EN: 1, READ ADDRESS: 2, DATA READ: 65437, WRITE ADDRESS: 6, DATA WRITTEN:    29
+#                  225 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 3, DATA WRITTEN:    10
+#                  240 EN: 1, READ ADDRESS: 2, DATA READ: 65298, WRITE ADDRESS: 4, DATA WRITTEN:   242
+#                  245 EN: 1, READ ADDRESS: 2, DATA READ: 65437, WRITE ADDRESS: 4, DATA WRITTEN:   242
+#                  255 EN: 1, READ ADDRESS: 2, DATA READ: 65437, WRITE ADDRESS: 1, DATA WRITTEN: 65496
+#                  270 EN: 1, READ ADDRESS: 0, DATA READ: 65437, WRITE ADDRESS: 1, DATA WRITTEN:   235
+#                  275 EN: 1, READ ADDRESS: 0, DATA READ:     x, WRITE ADDRESS: 1, DATA WRITTEN:   235
+#                  285 EN: 1, READ ADDRESS: 6, DATA READ:    29, WRITE ADDRESS: 6, DATA WRITTEN:   174
+#                  295 EN: 1, READ ADDRESS: 6, DATA READ:   174, WRITE ADDRESS: 6, DATA WRITTEN:   174
+#                  300 EN: 1, READ ADDRESS: 4, DATA READ:   174, WRITE ADDRESS: 2, DATA WRITTEN: 65291
+#                  305 EN: 1, READ ADDRESS: 4, DATA READ:   242, WRITE ADDRESS: 2, DATA WRITTEN: 65291
+#                  315 EN: 1, READ ADDRESS: 1, DATA READ:   235, WRITE ADDRESS: 5, DATA WRITTEN:    79
+#                  330 EN: 1, READ ADDRESS: 3, DATA READ:   235, WRITE ADDRESS: 2, DATA WRITTEN: 65406
+#                  335 EN: 1, READ ADDRESS: 3, DATA READ:    10, WRITE ADDRESS: 2, DATA WRITTEN: 65406
+#                  345 EN: 1, READ ADDRESS: 5, DATA READ:    79, WRITE ADDRESS: 1, DATA WRITTEN:   217
+#                  360 EN: 1, READ ADDRESS: 2, DATA READ:    79, WRITE ADDRESS: 4, DATA WRITTEN:   159
+#                  365 EN: 1, READ ADDRESS: 2, DATA READ: 65406, WRITE ADDRESS: 4, DATA WRITTEN:   159
+#                  375 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 0, DATA WRITTEN: 65463
+#                  390 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 4, DATA WRITTEN: 65371
+#                  405 EN: 1, READ ADDRESS: 1, DATA READ:   217, WRITE ADDRESS: 1, DATA WRITTEN: 65488
+#                  415 EN: 1, READ ADDRESS: 1, DATA READ: 65488, WRITE ADDRESS: 1, DATA WRITTEN: 65488
+#                  420 EN: 1, READ ADDRESS: 7, DATA READ: 65488, WRITE ADDRESS: 1, DATA WRITTEN:   150
+#                  425 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 1, DATA WRITTEN:   150
+#                  435 EN: 1, READ ADDRESS: 4, DATA READ: 65371, WRITE ADDRESS: 2, DATA WRITTEN:   200
+#                  450 EN: 1, READ ADDRESS: 7, DATA READ: 65371, WRITE ADDRESS: 5, DATA WRITTEN:    18
+#                  455 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 5, DATA WRITTEN:    18
+#                  465 EN: 1, READ ADDRESS: 6, DATA READ:   174, WRITE ADDRESS: 5, DATA WRITTEN:    57
+#                  480 EN: 1, READ ADDRESS: 7, DATA READ:   174, WRITE ADDRESS: 3, DATA WRITTEN:   133
+#                  485 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 3, DATA WRITTEN:   133
+#                  495 EN: 1, READ ADDRESS: 0, DATA READ: 65463, WRITE ADDRESS: 3, DATA WRITTEN:    73
+#                  510 EN: 1, READ ADDRESS: 7, DATA READ: 65463, WRITE ADDRESS: 2, DATA WRITTEN:    88
+#                  515 EN: 1, READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 2, DATA WRITTEN:    88
+#                  525 EN: 1, READ ADDRESS: 6, DATA READ:   174, WRITE ADDRESS: 6, DATA WRITTEN: 65436
+#                  535 EN: 1, READ ADDRESS: 6, DATA READ: 65436, WRITE ADDRESS: 6, DATA WRITTEN: 65436
+#                  540 EN: 1, READ ADDRESS: 2, DATA READ: 65436, WRITE ADDRESS: 6, DATA WRITTEN:   115
+#                  545 EN: 1, READ ADDRESS: 2, DATA READ:    88, WRITE ADDRESS: 6, DATA WRITTEN:   115
+#                  555 EN: 1, READ ADDRESS: 3, DATA READ:    73, WRITE ADDRESS: 7, DATA WRITTEN: 65459
+#                  570 EN: 1, READ ADDRESS: 7, DATA READ:    73, WRITE ADDRESS: 4, DATA WRITTEN:   247
+#                  575 EN: 1, READ ADDRESS: 7, DATA READ: 65459, WRITE ADDRESS: 4, DATA WRITTEN:   247
+#                  585 EN: 1, READ ADDRESS: 3, DATA READ:    73, WRITE ADDRESS: 6, DATA WRITTEN:    90
+#                  600 EN: 1, READ ADDRESS: 1, DATA READ:    73, WRITE ADDRESS: 5, DATA WRITTEN: 65498
+#                  605 EN: 1, READ ADDRESS: 1, DATA READ:   150, WRITE ADDRESS: 5, DATA WRITTEN: 65498
+#                  615 EN: 1, READ ADDRESS: 5, DATA READ: 65498, WRITE ADDRESS: 5, DATA WRITTEN: 65503
+#                  625 EN: 1, READ ADDRESS: 5, DATA READ: 65503, WRITE ADDRESS: 5, DATA WRITTEN: 65503
+#                  630 EN: 1, READ ADDRESS: 1, DATA READ: 65503, WRITE ADDRESS: 4, DATA WRITTEN: 65488
+#                  635 EN: 1, READ ADDRESS: 1, DATA READ:   150, WRITE ADDRESS: 4, DATA WRITTEN: 65488
+#                  645 EN: 1, READ ADDRESS: 2, DATA READ:    88, WRITE ADDRESS: 3, DATA WRITTEN:    14
+#                  660 EN: 1, READ ADDRESS: 4, DATA READ:    88, WRITE ADDRESS: 2, DATA WRITTEN: 65533
+#                  665 EN: 1, READ ADDRESS: 4, DATA READ: 65488, WRITE ADDRESS: 2, DATA WRITTEN: 65533
+#                  675 EN: 1, READ ADDRESS: 3, DATA READ:    14, WRITE ADDRESS: 6, DATA WRITTEN:    78
+#                  690 EN: 1, READ ADDRESS: 7, DATA READ:    14, WRITE ADDRESS: 2, DATA WRITTEN:   182
+#                  695 EN: 1, READ ADDRESS: 7, DATA READ: 65459, WRITE ADDRESS: 2, DATA WRITTEN:   182
+#                  705 EN: 1, READ ADDRESS: 0, DATA READ: 65463, WRITE ADDRESS: 1, DATA WRITTEN: 65464
+#                  720 EN: 1, READ ADDRESS: 4, DATA READ: 65463, WRITE ADDRESS: 3, DATA WRITTEN: 65284
+#                  725 EN: 1, READ ADDRESS: 4, DATA READ: 65488, WRITE ADDRESS: 3, DATA WRITTEN: 65284
+#                  735 EN: 1, READ ADDRESS: 1, DATA READ: 65464, WRITE ADDRESS: 3, DATA WRITTEN: 65357
+#                  750 EN: 1, READ ADDRESS: 1, DATA READ: 65464, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  795 EN: 1, READ ADDRESS: 1, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+# ===================RESET PRESSED=======================
+#                  800 EN: 1, READ ADDRESS: 0, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  810 EN: 1, READ ADDRESS: 1, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  820 EN: 1, READ ADDRESS: 2, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  830 EN: 1, READ ADDRESS: 3, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  840 EN: 1, READ ADDRESS: 4, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  850 EN: 1, READ ADDRESS: 5, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  860 EN: 1, READ ADDRESS: 6, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  870 EN: 1, READ ADDRESS: 7, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v(52)
+#    Time: 900 ps  Iteration: 0  Instance: /ram_tb
+# 1
+# Break in Module ram_tb at D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v line 52
+# Compile of dp_ram_8x16.v failed with 1 errors.
+# Compile of ram_tb.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of dp_ram_8x16.v was successful.
+# Compile of ram_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading dp_async_ram_sim.ram_tb
+# Loading dp_async_ram_sim.dp_ram_8x16
+# ** Error: (vsim-3043) D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v(30): Unresolved reference to 'en'.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_tb File: D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v
+vsim -gui dp_async_ram_sim.ram_tb
+# vsim -gui dp_async_ram_sim.ram_tb 
+# Start time: 15:11:18 on Apr 15,2022
+# Loading dp_async_ram_sim.ram_tb
+# Loading dp_async_ram_sim.dp_ram_8x16
+# ** Error: (vsim-3043) D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v(30): Unresolved reference to 'en'.
+#    Time: 0 ps  Iteration: 0  Instance: /ram_tb File: D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v
+# Error loading design
+# End time: 15:14:24 on Apr 15,2022, Elapsed time: 0:03:06
+# Errors: 2, Warnings: 0
+# Compile of dp_ram_8x16.v was successful.
+# Compile of ram_tb.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui dp_async_ram_sim.ram_tb
+# vsim -gui dp_async_ram_sim.ram_tb 
+# Start time: 15:15:05 on Apr 15,2022
+# Loading dp_async_ram_sim.ram_tb
+# Loading dp_async_ram_sim.dp_ram_8x16
+# Warning in wave window restart: (vish-4014) No objects found matching '/ram_tb/DUT/en'. 
+quit -sim
+# End time: 15:15:22 on Apr 15,2022, Elapsed time: 0:00:17
+# Errors: 1, Warnings: 0
+vsim -gui dp_async_ram_sim.ram_tb
+# vsim -gui dp_async_ram_sim.ram_tb 
+# Start time: 15:15:32 on Apr 15,2022
+# Loading dp_async_ram_sim.ram_tb
+# Loading dp_async_ram_sim.dp_ram_8x16
+add wave -position insertpoint sim:/ram_tb/DUT/*
+run -all
+#                    0 READ ADDRESS: 4, DATA READ:     x, WRITE ADDRESS: 1, DATA WRITTEN: 65289
+#                   15 READ ADDRESS: 3, DATA READ:     x, WRITE ADDRESS: 5, DATA WRITTEN:   141
+#                   30 READ ADDRESS: 5, DATA READ:     x, WRITE ADDRESS: 2, DATA WRITTEN:     1
+#                   35 READ ADDRESS: 5, DATA READ:   141, WRITE ADDRESS: 2, DATA WRITTEN:     1
+#                   45 READ ADDRESS: 5, DATA READ:   141, WRITE ADDRESS: 6, DATA WRITTEN:    61
+#                   60 READ ADDRESS: 5, DATA READ:   141, WRITE ADDRESS: 4, DATA WRITTEN:   249
+#                   75 READ ADDRESS: 6, DATA READ:    61, WRITE ADDRESS: 5, DATA WRITTEN: 65450
+#                   90 READ ADDRESS: 5, DATA READ:    61, WRITE ADDRESS: 7, DATA WRITTEN: 65298
+#                   95 READ ADDRESS: 5, DATA READ: 65450, WRITE ADDRESS: 7, DATA WRITTEN: 65298
+#                  105 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 2, DATA WRITTEN: 65486
+#                  120 READ ADDRESS: 0, DATA READ: 65298, WRITE ADDRESS: 5, DATA WRITTEN:    92
+#                  125 READ ADDRESS: 0, DATA READ:     x, WRITE ADDRESS: 5, DATA WRITTEN:    92
+#                  135 READ ADDRESS: 5, DATA READ:    92, WRITE ADDRESS: 5, DATA WRITTEN: 65381
+#                  145 READ ADDRESS: 5, DATA READ: 65381, WRITE ADDRESS: 5, DATA WRITTEN: 65381
+#                  150 READ ADDRESS: 3, DATA READ: 65381, WRITE ADDRESS: 2, DATA WRITTEN: 65408
+#                  155 READ ADDRESS: 3, DATA READ:     x, WRITE ADDRESS: 2, DATA WRITTEN: 65408
+#                  165 READ ADDRESS: 0, DATA READ:     x, WRITE ADDRESS: 2, DATA WRITTEN: 65437
+#                  180 READ ADDRESS: 6, DATA READ:     x, WRITE ADDRESS: 3, DATA WRITTEN: 65293
+#                  185 READ ADDRESS: 6, DATA READ:    61, WRITE ADDRESS: 3, DATA WRITTEN: 65293
+#                  195 READ ADDRESS: 3, DATA READ: 65293, WRITE ADDRESS: 3, DATA WRITTEN: 65493
+#                  205 READ ADDRESS: 3, DATA READ: 65493, WRITE ADDRESS: 3, DATA WRITTEN: 65493
+#                  210 READ ADDRESS: 2, DATA READ: 65493, WRITE ADDRESS: 6, DATA WRITTEN:    29
+#                  215 READ ADDRESS: 2, DATA READ: 65437, WRITE ADDRESS: 6, DATA WRITTEN:    29
+#                  225 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 3, DATA WRITTEN:    10
+#                  240 READ ADDRESS: 2, DATA READ: 65298, WRITE ADDRESS: 4, DATA WRITTEN:   242
+#                  245 READ ADDRESS: 2, DATA READ: 65437, WRITE ADDRESS: 4, DATA WRITTEN:   242
+#                  255 READ ADDRESS: 2, DATA READ: 65437, WRITE ADDRESS: 1, DATA WRITTEN: 65496
+#                  270 READ ADDRESS: 0, DATA READ: 65437, WRITE ADDRESS: 1, DATA WRITTEN:   235
+#                  275 READ ADDRESS: 0, DATA READ:     x, WRITE ADDRESS: 1, DATA WRITTEN:   235
+#                  285 READ ADDRESS: 6, DATA READ:    29, WRITE ADDRESS: 6, DATA WRITTEN:   174
+#                  295 READ ADDRESS: 6, DATA READ:   174, WRITE ADDRESS: 6, DATA WRITTEN:   174
+#                  300 READ ADDRESS: 4, DATA READ:   174, WRITE ADDRESS: 2, DATA WRITTEN: 65291
+#                  305 READ ADDRESS: 4, DATA READ:   242, WRITE ADDRESS: 2, DATA WRITTEN: 65291
+#                  315 READ ADDRESS: 1, DATA READ:   235, WRITE ADDRESS: 5, DATA WRITTEN:    79
+#                  330 READ ADDRESS: 3, DATA READ:   235, WRITE ADDRESS: 2, DATA WRITTEN: 65406
+#                  335 READ ADDRESS: 3, DATA READ:    10, WRITE ADDRESS: 2, DATA WRITTEN: 65406
+#                  345 READ ADDRESS: 5, DATA READ:    79, WRITE ADDRESS: 1, DATA WRITTEN:   217
+#                  360 READ ADDRESS: 2, DATA READ:    79, WRITE ADDRESS: 4, DATA WRITTEN:   159
+#                  365 READ ADDRESS: 2, DATA READ: 65406, WRITE ADDRESS: 4, DATA WRITTEN:   159
+#                  375 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 0, DATA WRITTEN: 65463
+#                  390 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 4, DATA WRITTEN: 65371
+#                  405 READ ADDRESS: 1, DATA READ:   217, WRITE ADDRESS: 1, DATA WRITTEN: 65488
+#                  415 READ ADDRESS: 1, DATA READ: 65488, WRITE ADDRESS: 1, DATA WRITTEN: 65488
+#                  420 READ ADDRESS: 7, DATA READ: 65488, WRITE ADDRESS: 1, DATA WRITTEN:   150
+#                  425 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 1, DATA WRITTEN:   150
+#                  435 READ ADDRESS: 4, DATA READ: 65371, WRITE ADDRESS: 2, DATA WRITTEN:   200
+#                  450 READ ADDRESS: 7, DATA READ: 65371, WRITE ADDRESS: 5, DATA WRITTEN:    18
+#                  455 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 5, DATA WRITTEN:    18
+#                  465 READ ADDRESS: 6, DATA READ:   174, WRITE ADDRESS: 5, DATA WRITTEN:    57
+#                  480 READ ADDRESS: 7, DATA READ:   174, WRITE ADDRESS: 3, DATA WRITTEN:   133
+#                  485 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 3, DATA WRITTEN:   133
+#                  495 READ ADDRESS: 0, DATA READ: 65463, WRITE ADDRESS: 3, DATA WRITTEN:    73
+#                  510 READ ADDRESS: 7, DATA READ: 65463, WRITE ADDRESS: 2, DATA WRITTEN:    88
+#                  515 READ ADDRESS: 7, DATA READ: 65298, WRITE ADDRESS: 2, DATA WRITTEN:    88
+#                  525 READ ADDRESS: 6, DATA READ:   174, WRITE ADDRESS: 6, DATA WRITTEN: 65436
+#                  535 READ ADDRESS: 6, DATA READ: 65436, WRITE ADDRESS: 6, DATA WRITTEN: 65436
+#                  540 READ ADDRESS: 2, DATA READ: 65436, WRITE ADDRESS: 6, DATA WRITTEN:   115
+#                  545 READ ADDRESS: 2, DATA READ:    88, WRITE ADDRESS: 6, DATA WRITTEN:   115
+#                  555 READ ADDRESS: 3, DATA READ:    73, WRITE ADDRESS: 7, DATA WRITTEN: 65459
+#                  570 READ ADDRESS: 7, DATA READ:    73, WRITE ADDRESS: 4, DATA WRITTEN:   247
+#                  575 READ ADDRESS: 7, DATA READ: 65459, WRITE ADDRESS: 4, DATA WRITTEN:   247
+#                  585 READ ADDRESS: 3, DATA READ:    73, WRITE ADDRESS: 6, DATA WRITTEN:    90
+#                  600 READ ADDRESS: 1, DATA READ:    73, WRITE ADDRESS: 5, DATA WRITTEN: 65498
+#                  605 READ ADDRESS: 1, DATA READ:   150, WRITE ADDRESS: 5, DATA WRITTEN: 65498
+#                  615 READ ADDRESS: 5, DATA READ: 65498, WRITE ADDRESS: 5, DATA WRITTEN: 65503
+#                  625 READ ADDRESS: 5, DATA READ: 65503, WRITE ADDRESS: 5, DATA WRITTEN: 65503
+#                  630 READ ADDRESS: 1, DATA READ: 65503, WRITE ADDRESS: 4, DATA WRITTEN: 65488
+#                  635 READ ADDRESS: 1, DATA READ:   150, WRITE ADDRESS: 4, DATA WRITTEN: 65488
+#                  645 READ ADDRESS: 2, DATA READ:    88, WRITE ADDRESS: 3, DATA WRITTEN:    14
+#                  660 READ ADDRESS: 4, DATA READ:    88, WRITE ADDRESS: 2, DATA WRITTEN: 65533
+#                  665 READ ADDRESS: 4, DATA READ: 65488, WRITE ADDRESS: 2, DATA WRITTEN: 65533
+#                  675 READ ADDRESS: 3, DATA READ:    14, WRITE ADDRESS: 6, DATA WRITTEN:    78
+#                  690 READ ADDRESS: 7, DATA READ:    14, WRITE ADDRESS: 2, DATA WRITTEN:   182
+#                  695 READ ADDRESS: 7, DATA READ: 65459, WRITE ADDRESS: 2, DATA WRITTEN:   182
+#                  705 READ ADDRESS: 0, DATA READ: 65463, WRITE ADDRESS: 1, DATA WRITTEN: 65464
+#                  720 READ ADDRESS: 4, DATA READ: 65463, WRITE ADDRESS: 3, DATA WRITTEN: 65284
+#                  725 READ ADDRESS: 4, DATA READ: 65488, WRITE ADDRESS: 3, DATA WRITTEN: 65284
+#                  735 READ ADDRESS: 1, DATA READ: 65464, WRITE ADDRESS: 3, DATA WRITTEN: 65357
+#                  750 READ ADDRESS: 1, DATA READ: 65464, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  795 READ ADDRESS: 1, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+# ===================RESET PRESSED=======================
+#                  800 READ ADDRESS: 0, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  810 READ ADDRESS: 1, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  820 READ ADDRESS: 2, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  830 READ ADDRESS: 3, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  840 READ ADDRESS: 4, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  850 READ ADDRESS: 5, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  860 READ ADDRESS: 6, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+#                  870 READ ADDRESS: 7, DATA READ:     0, WRITE ADDRESS: 0, DATA WRITTEN:     0
+# ** Note: $finish    : D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v(51)
+#    Time: 900 ps  Iteration: 0  Instance: /ram_tb
+# 1
+# Break in Module ram_tb at D:/Maven Learning/Practicals/Lab5/2 ASYN_DUAL_PORT_RAM_8x16/test_bench/ram_tb.v line 51

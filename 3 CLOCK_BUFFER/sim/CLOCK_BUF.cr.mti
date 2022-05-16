@@ -1,0 +1,8 @@
+{D:/Maven Learning/Practicals/Lab5/3 CLOCK_BUFFER/test_bench/clock_buff_tb.v} {1 {vlog -work CB_SIM -stats=none {D:/Maven Learning/Practicals/Lab5/3 CLOCK_BUFFER/test_bench/clock_buff_tb.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module clock_buf_tb
+
+Top level modules:
+	clock_buf_tb
+
+} {} {}}

@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at dp_ram_16x8.v(23): always construct contains both blocking and non-blocking assignments File: D:/Maven Learning/Practicals/Lab5/1 SYNC_DUAL_PORT_RAM_16x8/rtl/dp_ram_16x8.v Line: 23
